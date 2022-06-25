@@ -1,12 +1,7 @@
 import React from "react";
 
-export default function Navbar(){
+export default function Contact(){
     return (
-        <section>
-            
-                <h1>Contact US (Contact Section)</h1>
-                <hr />
-            
-        </section>
+        pass 
     )
 }

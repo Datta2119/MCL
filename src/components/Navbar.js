@@ -1,8 +1,7 @@
 import React from "react";
 
 // Import CSS
-import '../style/basic_style.css'
-import '../style/component_style.css'
+import '../style/main.css'
 
 // Import Assets
 import MagnusLogo from '../images/mcl-logo.png'

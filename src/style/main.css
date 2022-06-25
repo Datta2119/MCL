@@ -1,0 +1,5 @@
+@import './basic_style.css';  /* For Generic Style Statement */
+
+@import './navbar.css';  /* For Navigation Bar Style Statement */
+
+@import './magnus_team.css'  /* For Team Introduction [Card-View] */
