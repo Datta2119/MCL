@@ -1,12 +1,28 @@
 import React from "react";
 
-export default function Navbar(){
+// Import CSS
+import '../style/main.css'
+
+// Import Assets
+import ArmanAhemdKhan from '../images/arman-bhai.jpg'
+import Bishway from '../images/bishway.jpeg'
+
+export default function MagnusTeam(){
     return (
-        <section>
-            
-                <h1>MCL Team (Team Details Section)</h1>
-                <hr />
-            
-        </section>
+        <div>
+            <div className="card">
+                <section className="card--employee-image">
+                    <img src= {ArmanAhemdKhan} alt='' className="card--image"/>
+                </section>
+
+                <section className="card--employee-name">
+                    <p className="employee-name">Arman Ahmed Khan</p>
+                </section>
+                
+                <section className="card--employee-designation">
+                    <p className="employee-designation">Managing Director</p>
+                </section>
+            </div>
+        </div> 
     )
 }

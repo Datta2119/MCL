@@ -1,12 +1,7 @@
 import React from "react";
 
-export default function Navbar(){
+export default function Footer(){
     return (
-        <section>
-            
-                <h1>Footer (Footer Section)</h1>
-                <hr />
-            
-        </section>
+        pass
     )
 }

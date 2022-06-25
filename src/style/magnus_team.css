@@ -1,0 +1,66 @@
+.card{
+    width: 215px;
+    height: 315px;
+
+    margin-left: 15px;
+    
+    border: 1px solid lightgray;
+    border-radius: 9px;
+
+    filter: drop-shadow(0 0 0.03rem #8F9AA3);
+
+    float: left;
+}
+
+.card > .card--employee-image{
+    width: 100%;
+    height: 70%;
+
+    /* border: 1px solid red; */
+    border-radius: 9px 9px 0px 0px;
+}
+
+.card > .card--employee-image > img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 9px 9px 0px 0px;
+}
+
+.card > .card--employee-name{
+    /* border: 1px solid red; */
+
+    width: 100%;
+    height: 30px;
+
+    margin-top: 17px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > .card--employee-name > .employee-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.card > .card--employee-designation{
+    /* border: 1px solid red; */
+
+    width: 100%;
+    height: 30px;
+
+    margin-top: -3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > .card--employee-designation > .employee-designation{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+}
