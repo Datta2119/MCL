@@ -17,9 +17,17 @@ export default function App() {
             <br />
             <br />
             <Hero />
+            <br />
+            <br />
             <ProductShowCase />
+            <br />
+            <br />
             <TeamMCL />
+            <br />
+            <br />
             <Contact />
+            <br />
+            <br />
             <Footer />
         </div>
     )
