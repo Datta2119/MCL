@@ -9,23 +9,7 @@ export default function App(){
             <Navbar />
             <br />
             <br />
-<<<<<<< HEAD
-            <Hero />
-            <br />
-            <br />
-            <ProductShowCase />
-            <br />
-            <br />
             <TeamMCL />
-            <br />
-            <br />
-            <Contact />
-            <br />
-            <br />
-            <Footer />
-=======
-            <MagnusTeam />
->>>>>>> mcl-team
         </div>
     )
 }
